@@ -1,0 +1,56 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Tic Tac Toe</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+  <div class="game">
+      <h1>Tic Tac Toe</h1>
+      <div class="board">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+      </div>
+      <div id="game-status">Player X's turn</div>
+      <button id="restart-button">Restart</button>
+      <table>
+          <thead>
+          <tr>
+              <th>Player</th>
+              <th>Wins</th>
+              <th>Losses</th>
+              <th>Ties</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td>X</td>
+              <td id="x-wins">0</td>
+              <td id="x-losses">0</td>
+              <td id="x-ties">0</td>
+          </tr>
+          <tr>
+              <td>O</td>
+              <td id="o-wins">0</td>
+              <td id="o-losses">0</td>
+              <td id="o-ties">0</td>
+          </tr>
+          </tbody>
+      </table>
+  </div>
+      <div class="link-wrapper">
+      <a href="https://github.com/turkprogrammer/tictactoegame">
+          <i class="fab fa-github"></i> Developed by Turkprogrammer
+      </a>
+      </div>
+  <script src="script.js"></script>
+  </body>
+  </html>
